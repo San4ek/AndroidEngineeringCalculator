@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/numbers_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button android:id="@+id/one_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="1"/>
+            <Button android:id="@+id/two_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="2"/>
+            <Button android:id="@+id/three_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="3"/>
+            <Button android:id="@+id/del_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="/"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button android:id="@+id/four_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="4"/>
+            <Button android:id="@+id/five_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="5"/>
+            <Button android:id="@+id/six_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="6"/>
+            <Button android:id="@+id/mul_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="*"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button android:id="@+id/seven_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="7"/>
+            <Button android:id="@+id/eight_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="8"/>
+            <Button android:id="@+id/nine_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="9"/>
+            <Button android:id="@+id/minus_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="-"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button android:id="@+id/dot_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="."/>
+            <Button android:id="@+id/zero_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="0"/>
+            <Button android:id="@+id/procent_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="%"/>
+            <Button android:id="@+id/plus_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="+"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button android:id="@+id/clr_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="CA"/>
+            <Button android:id="@+id/delete_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Delete"/>
+            <Button android:id="@+id/res_button"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:text="="/>
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/functions_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button android:id="@+id/left_bracket_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="("/>
+            <Button android:id="@+id/right_bracket_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=")"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button android:id="@+id/sin_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="sin"/>
+            <Button android:id="@+id/cos_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="cos"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button android:id="@+id/tg_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="tan"/>
+            <Button android:id="@+id/log_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="log"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button android:id="@+id/e_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="e"/>
+            <Button android:id="@+id/pi_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="π"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button android:id="@+id/pow_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="^"/>
+            <Button android:id="@+id/history_button"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="history"/>
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
